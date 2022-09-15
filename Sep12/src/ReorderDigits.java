@@ -1,8 +1,8 @@
 import java.util.HashMap;
 import java.util.Map;
+
 public class ReorderDigits {
-    
-    public static int[] reorderDigits(int[] nums, String order){
+	public static int[] reorderDigits(int[] nums, String order){
         int[] newNums = new int[nums.length];
         for(int i = 0; i < nums.length; i++){
             Map<Integer, Integer> digits = new HashMap<>(); 
@@ -70,6 +70,5 @@ public class ReorderDigits {
         }
         
     }
-    
 
 }

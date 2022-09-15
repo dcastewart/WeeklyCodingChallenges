@@ -1,6 +1,6 @@
+
 public class Partition {
-    
-    public static boolean canPartition(int[] nums){
+	public static boolean canPartition(int[] nums){
         if(nums.length == 1) return false;
 
         //find product of all but first element
